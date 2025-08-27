@@ -1,0 +1,45 @@
+.snippet {
+  border-radius: 99px;
+  background-color: var(--background);
+  padding: 0px 12px 0px 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:8px;
+  color:#000000 ;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+  height: 24px;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.text {
+  max-width: 140px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.btnClose {
+  border:none;
+  background-color: var(--background);
+  padding: 0;
+  height: 8px;
+  width: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  &:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+}
+
+.btnClose img {
+  display: block;
+  width: 8px;
+  height: 8px;
+}

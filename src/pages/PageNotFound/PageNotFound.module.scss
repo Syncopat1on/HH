@@ -1,0 +1,55 @@
+.PageNotFoundContainer {
+  width: 707px;
+  height: 556px;
+  border-radius: 12px;
+  background-color: var(--white);
+  margin: 0 auto;
+  margin-top: 72px;
+}
+
+.PageNotFoundContent {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap:32px;
+}
+
+.PageNotFoundTitleContainer {
+  position: relative;
+}
+
+.PageNotFoundTitle {
+  font-weight: 700;
+  font-size: 34px;
+  color: var(--black1);
+  width: 508px;
+  height: 88px;
+}
+
+.PageNotFoundToHomeBtn {
+  width: 135px;
+  height: 42px;
+  background-color: var(--primary);
+  color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  position: absolute;
+  top:73px;
+  right:32px;
+}
+
+.PageNotFoundBottomText {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--black1);
+  padding-top: 12px;
+}
+
+.CryingCat {
+  width: 640px;
+  height: 336px;
+  border-radius: 12px;
+}

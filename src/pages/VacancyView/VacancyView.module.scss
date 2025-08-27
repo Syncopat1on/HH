@@ -1,0 +1,26 @@
+.VacancyViewContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+    margin-top: 24px;
+}
+
+.VacancyViewCompany {
+    width: 659px;
+    background-color: var(--white);
+    border-radius: 12px;
+    margin-bottom: 24px;
+}
+
+.VacancyViewCompanyContent {
+    padding: 24px;
+}
+
+.loading {
+    margin: 0 auto;
+    padding-top: 24px;
+    font-size: 18px;
+    font-weight: 600;
+}

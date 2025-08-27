@@ -1,0 +1,138 @@
+.vacancyContainer {
+  width: 659px;
+  height: 248px;
+  background-color: var(--white);
+  border-radius: 12px;
+}
+
+.vacancyContent {
+  padding: 24px 24px 0px 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.moneyAndExperienceContainer {
+  display: flex;
+  gap:16px;
+}
+
+.vacancyTittle {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--dark-primary);
+  margin-bottom: 8px;
+}
+
+.vacancyMoney {
+  font-family: Open Sans;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--black1);
+}
+
+.vacancyExperience {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--gray);
+}
+
+.topContainer, 
+.middleContainer {
+  margin-bottom: 16px;
+}
+
+.vacancyCompanyName {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--gray);
+  margin-bottom: 8px;
+}
+
+.vacancyJobConditions {
+  font-size: 9px;
+  font-weight: 700;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  padding: 1px;
+  line-height: 16px;
+
+}
+.remote {
+  background-color: var(--primary);
+  color: var(--white);
+  max-width: 105px;
+}
+
+.flexible,
+.flyInFlyOut {
+  background-color: var(--black1);
+  color: var(--white);
+  max-width: 50px;
+}
+
+.fullDay,
+.shift {
+  background-color: var(--ultra-light);
+  color: var(--gray);
+  max-width: 41px;
+}
+
+.vacancyCity {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--black1);
+  margin-top: 4px;
+}
+
+.BtnContainer {
+  display: flex;
+  gap:12px;
+}
+
+.viewVacancy {
+  width: 172px;
+  height: 36px;
+  background-color: var(--black1);
+  color: var(--white);
+  &:hover {
+    transition: 0.5s;
+    background-color: var(--primary);
+    
+  }
+}
+
+.respondVacancy {
+  width: 131px;
+  height: 36px;
+  background-color: var(--ultra-light);
+  color: var(--black1);
+  &:hover {
+    transition: 0.5s;
+    background-color: var(--blue-light);
+  }
+}
+
+.viewVacancy ,.respondVacancy {
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:none;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+  

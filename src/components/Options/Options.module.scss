@@ -1,0 +1,120 @@
+.optionsContainer {
+  width: 317px;
+  min-height: 206px;
+  background-color: var(--white);
+  border-radius: 12px;
+}
+
+.optionsContent {
+  padding: 24px;
+}
+
+.labelText {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color:#212529;
+}
+
+.addSnippetInput {
+  width: 217px;
+  height: 30px;
+  border-radius: 8px;
+  border: 1px solid var(--pre-light);
+  padding-left: 10px;
+  &::placeholder {
+    color: var(--pre-light);
+    font-weight: 400;
+    font-size: 12px;
+  }
+}
+
+.addSnippetBtn {
+  width: 34px;
+  height: 30px;
+  border-radius: 8px;
+  background-color: var(--blue6);
+  border:none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.optionsForm {
+  display: flex;
+  flex-direction: column;
+  gap:12px;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.snippetContainer {
+  display: grid;
+  margin-top: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(80px, max-content));
+  column-gap: 4px;
+  row-gap: 6px;
+  justify-content: center;
+}
+//////////////////////////////
+
+.sityChoise {
+  width: 317px;
+  height: 84px;
+  background-color: var(--white);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.choiseSityInput {
+  width: 231px;
+  height: 36px;
+  border:1px solid var(--pre-light);
+  border-radius: 4px;
+  margin: 23px;
+  padding-left: 38px;
+  appearance: none; 
+  background-repeat: no-repeat;
+  background-position: 12px center;
+
+  color: var(--pre-light);
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.choiseSityInput {
+  background-image: 
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='13' viewBox='0 0 14 15' fill='none'%3E%3Cpath d='M7 8.333a2 2 0 1 0 0-4 2 2 0 0 0 0 4z' stroke='%230F0F10' stroke-opacity='0.3' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M10.771 10.105 7.943 12.933a1.667 1.667 0 0 1-2.357 0L3.229 10.105a5.667 5.667 0 1 1 7.542 0z' stroke='%230F0F10' stroke-opacity='0.3' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"),
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12' fill='none'%3E%3Cpath d='M3 5L6 8L9 5' stroke='%23999' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"),
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12' fill='none'%3E%3Cpath d='M3 8L6 5L9 8' stroke='%23999' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-position: left 12px center, right 12px bottom 8px , right 12px top 8px;
+ 
+}
+
+.choiseSityInput option {
+  color: #333;
+  background-color: white;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.choiseSityInput option:checked {
+  background-color: #fdf2f2;
+  
+}
+
+.ContainerALL {
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}

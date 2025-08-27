@@ -1,0 +1,67 @@
+.ListOfVacanciesTop {
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--black1);
+}
+
+.ListOfVacanciesBottom {
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--gray);
+}
+
+.headerMain {
+  margin-left: 220px;
+  margin-top: 24px;
+}
+
+.headerContent {
+  display: flex;
+}
+
+.searchContainer {
+  margin-left: 126px;
+  white-space: nowrap;
+}
+
+.searchInput {
+  width: 409px;
+  height: 42px;
+  border-radius: 8px;
+  border:1px var(--light-gray) solid;
+  background-image: url('data:image/svg+xml;utf8,<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 13L9 9M10.3333 5.66667C10.3333 8.244 8.244 10.3333 5.66667 10.3333C3.08934 10.3333 1 8.244 1 5.66667C1 3.08934 3.08934 1 5.66667 1C8.244 1 10.3333 3.08934 10.3333 5.66667Z" stroke="%230F0F10" stroke-opacity="0.3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+  background-repeat: no-repeat;
+  background-position: 14px center;
+  padding: 15px 15px 15px 40px;
+
+  &::placeholder {
+    color: var(--light-gray);
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: 400;
+  }
+}
+
+.searchBtn {
+  margin-left: 12px;
+  width: 93px;
+  height: 42px;
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  &:hover {
+    transition: 0.5s;
+    background-color: var(--dark-primary);
+  }
+}
+
+.br {
+  height: 1px;
+  width: 100%;
+  background-color: var(--pre-light);
+  margin-top: 24px;
+}
