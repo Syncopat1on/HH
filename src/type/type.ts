@@ -33,8 +33,7 @@ export interface Vacancy {
     id: string;
     name: string;
   };
-  alternate_url: string;
-  published_at: string;
+  alternate_url?: string;
 }
 
 export interface VacanciesResponse {
@@ -43,7 +42,7 @@ export interface VacanciesResponse {
   pages: number;
   page: number;
   per_page: number;
-  alternate_url: string;
+  alternate_url?: string;
 }
 
 export interface SearchParams {
@@ -77,8 +76,3 @@ export interface VacanciesState {
   found: number;
   area?: number;
 }
-
-// export const AREAS: Record<number, string> = {
-//   1: 'Москва',
-//   2: 'Санкт-Петербург'
-// };

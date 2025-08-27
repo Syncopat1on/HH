@@ -1,7 +1,6 @@
 import style from './Header.module.scss';
 import AvatarLogo from '../../assets/AvatarLogo.svg';
 import HHLogo from '../../assets/HHLogo.png';
-import { NavLink } from 'react-router-dom';
 import CustomLink from '../CustomLink/CustomLink';
 
 const Header = () => {
